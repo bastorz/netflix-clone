@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+
+module.exports = {
+    semi: false,
+    singleQuote: true,
+    trailingComma: 'all',
+  }
