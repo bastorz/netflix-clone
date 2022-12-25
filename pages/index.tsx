@@ -32,7 +32,6 @@ const Home = ({   netflixOriginals,
  }: Props) => {
 
   const { loading } = useAuth()
-
   const showModal = useRecoilValue(modalState)
 
   if (loading) return null
